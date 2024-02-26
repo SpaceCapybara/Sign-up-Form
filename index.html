@@ -3,11 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sing-up Form</title>
     <script defer src="main.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="main">
+        <div class="left">
+            <div class="odin-logo-bg">
+            <img src="/images/odin-lined.png" alt="The Odin Project Logo" class="odin-logo">
+            <h1 class="odin-txt">ODIN</h1>
+            </div>
+            <div class="forFooter">
+                <p class="p-footer">Photo by <a href="https://unsplash.com/photos/25xggax4bSA" class="a-footer">Halie West</a> on <a href="https://unsplash.com" class="a-footer">Unsplash</a></p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="first">
+                <h2>
+                    This i not a real online service! You know you need something <br>
+                    like this in your life to help you realize your deepest dreams. <br>
+                    Sign up <em>now</em> to get started.
+                    <br><br>
+                    You <em>know</em> you want to.
+                </h2>
+            </div>
+            <form action="#" method="get">
+                <div class="second">
+                    <h3 class="second-text">Let's do this!</h3>
+                    <div class="form-main-div">
+                        <div class="form-divs">
+                            <div class="form-div">
+                                <label for="firstName">FIRST NAME</label>
+                                <input type="text" id="firstName" name="firstName">
+                            </div>
+                            <div class="form-div">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="email"> 
+                            </div>
+                            <div class="form-div">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" name="password" minlength="6" required>
+                                <p id="error"></p>
+                            </div>
+                        </div>
+                        <div class="form-divs">
+                            <div class="form-div">
+                                <label for="lastName">LAST NAME</label>
+                                <input type="text" id="lastName"  name="lastName">
+                            </div>
+                            <div class="form-div">
+                                <label for="phoneNumber">PHONE NUMBER</label>
+                                <input type="tel" id="phoneNumber" placeholder="" name="phoneNumber">
+                            </div>
+                            <div class="form-div">
+                                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirmPassword" name="confirmPassword" minlength="6" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="third">
+                    <button type="submit" class="btn btn-green">Create Account</button>
+                    <p class="log-in-text">Already have an account? <a href="https://kekw.com" class="login">Log In</a></p>
+                </div>
+            </form>
+        </container>
+    </container>
 </body>
 </html>
