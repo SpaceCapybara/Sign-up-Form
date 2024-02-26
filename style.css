@@ -1,0 +1,175 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Medium.ttf)
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.left {
+    background-image:url('./images/photo-1585202900225-6d3ac20a6962.avif');
+    background-size: cover;
+    width: 30vw;
+    color: white;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 100vh;
+    background-color: gainsboro;
+}
+
+.first {
+    height: 29vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 4%;
+    margin-bottom: 3%;
+}
+
+.second {
+    height: 29vh;
+    background-color: white;
+    box-shadow: 1px 5px #d3d3d4;
+    margin-top: 10;
+    border: 2px white solid;
+}
+
+.third {
+    height: 30vh;
+}
+
+.form-main-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-div {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-divs {
+    margin-left: 4%;
+}
+
+.second-text {
+    margin-left: 4%;
+    font-size: 23px;
+    margin-top: px;
+}
+
+.odin-txt {
+    opacity: 1;
+}
+
+.odin-logo-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 18vh;
+    margin-top: 15.2vh;
+    font-family: Norse-Bold;
+    display: flex;
+    font-size: 4vh;
+}
+
+
+.odin-logo {
+    margin-left: 7vw;
+    max-width: 100%; /* Set maximum width */
+    max-height: 100%; /* Set maximum height */
+}
+
+.forFooter {
+
+}
+
+input {
+    width: 200px;
+    height: 22px;
+    border: 1px solid #E5E7EB;
+    border-radius: 2px;
+}
+
+
+input:invalid{
+    border: 1px solid red;
+}
+
+label {
+    font-size: 13px;
+    color: #7a7a7a;
+    letter-spacing: 2px;
+}
+
+#error {
+    color: red;
+    font-size: 12px;
+    font-family: Roboto;
+    margin: 1px;
+}
+
+
+.btn-green {
+    background-color: #596D48;
+    width: 190px;
+    height: 45px;
+    margin-left: 4%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Roboto;
+    font-size: 17px;
+    margin-top: 3%;
+    box-shadow: 1px 5px #c7c7ca;
+}
+
+.log-in-text {
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.login, .login:visited, .login:active {
+  text-decoration: none;
+  color: #596D48;
+  font-weight: bold;
+}
+
+.a-footer{
+    color: white;
+    font-size: 13px;
+}
+
+.p-footer{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 61vh;
+}
+
+.odin-logo-bg{
+}
